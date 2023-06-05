@@ -35,7 +35,7 @@
                           <td> <p>Smart Watch</p></td>
                           <td>Q 100.00</td>
                           <td><input type="number" value="1"></td>
-                          <td>Q 100.00</td>
+                          <td>Q 120.00</td>
                        </tr>
                     </tbody>
                 </table>
@@ -50,7 +50,7 @@
                 <div class="detallePrecios">
                     <div>
                         <p>subtotal</p>
-                        <p>Q 100.00</p>
+                        <p class="subTotal">120.00</p>
                     </div>
                     <div>
                         <p>descuento</p>
@@ -58,7 +58,7 @@
                     </div>
                     <div>
                         <p>Total</p>
-                        <p class="total">Q 100.00</p>
+                        <p class="total">120.00</p>
                     </div>
 
                 </div>
@@ -72,12 +72,14 @@
                         Cupón
                     </div>
                     <div class="cuponBody">
-                        <input type="text">
-                        <button>Aplicar cupón</button>
+                        <input type="text" id="cuponTexto">
+                        <button onclick="descuentoTienda(15);">Aplicar cupón</button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+    <script src="main.js"></script>
 </body>
 </html>

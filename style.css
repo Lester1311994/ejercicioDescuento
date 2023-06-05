@@ -51,13 +51,21 @@ thead tr th{
 thead tr th, tbody tr td{
     padding-left: 15px;
     padding-right: 15px;
-    padding-top: 10px;
+    font-size: 20px;
+    padding-top: 14px;
+    text-align: center;
 }
 
+tbody tr td input{
+    font-size: 20px;
+    width: 40%;
+    text-align: center;
+}
 .contenedorDetalle div button{
     margin-top: 20px;
     margin-left: 10px;
     padding: 14px;
+    
     border: 1px solid #00569d;
 }
 
@@ -120,5 +128,7 @@ thead tr th, tbody tr td{
 
 .cuponBody input{
     width: 100%;
-    padding: 10px;
+    padding: 7px;
+    font-size: 25px;
+    color: #b5b5b5;
 }
